@@ -63,11 +63,27 @@
     border-top: 5px solid black;
 }
 
-.bottom-bitch {
-    border-bottom: 2px solid black;
+.bottom-line {
+    border-bottom: 4px solid black;
 }
 
-.derp {
+.bottom-line h3 {
+    display: inline;
+}
+
+.bottom-line img {
+    display: block;
+    float: right;
+    height: 40px;
+    width: 40px;
+    background: url("images/icons/linkdarkgray.svg") bottom;
+}
+
+#swapper:hover {
+    background-position: 0 0;
+}
+
+.div-image-box {
     position: relative;
 }
 
@@ -89,11 +105,11 @@
     -ms-transform: translate(-50%, -50%)
   }
 
-.derp:hover .image-box{
+.div-image-box:hover .image-box{
     opacity: 0.3;
 }
 
-.derp:hover .middle {
+.div-image-box:hover .middle {
     opacity: 1;
 }
 
